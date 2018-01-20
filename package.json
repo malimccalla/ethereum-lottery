@@ -1,7 +1,16 @@
 {
-  "name": "lottery",
+  "name": "inbox",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Mali Michael <malimccalla@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha --watch"
+  },
+  "dependencies": {
+    "ganache-cli": "^6.0.3",
+    "mocha": "^4.1.0",
+    "solc": "^0.4.19",
+    "truffle-hdwallet-provider": "^0.0.3",
+    "web3": "1.0.0-beta.26"
+  }
 }
